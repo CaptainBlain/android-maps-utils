@@ -68,6 +68,7 @@ uploadArchives {
 }
 
 def modifyPom(pom) {
+
     pom.project {
         name 'Google Maps Android API utility library'
         description 'Handy extensions to the Google Maps Android API.'
